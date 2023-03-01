@@ -1,11 +1,12 @@
 {
-  "name": "@simonsmith/cypress-image-snapshot",
-  "version": "6.0.0",
+  "name": "@hyperkid/cypress-image-snapshot",
+  "version": "6.0.1",
   "description": "Cypress bindings for jest-image-snapshot.",
-  "repository": "https://github.com/simonsmith/cypress-image-snapshot",
+  "repository": "https://github.com/Hyperkid123/cypress-image-snapshot",
   "author": "Jack Cross <jack@palmer.net>",
   "contributors": [
-    "Simon Smith <simonsmith@users.noreply.github.com>"
+    "Simon Smith <simonsmith@users.noreply.github.com>",
+    "Martin Marosi <Hyperkid123@users.noreply.github.com>"
   ],
   "license": "MIT",
   "files": [
@@ -49,7 +50,7 @@
     "rimraf": "^2.6.2"
   },
   "peerDependencies": {
-    "cypress": "^10.0.0"
+    "cypress": "^10.0.0 || ^11.0.0 || ^12.0.0"
   },
   "husky": {
     "hooks": {
